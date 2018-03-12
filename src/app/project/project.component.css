@@ -61,6 +61,8 @@ h4 {
     padding-right: 20px;
 }
 
+
+/* 
 @media (max-width: 600px) {
     .module {
         font-size: 10px;
@@ -75,4 +77,4 @@ h4 {
     .module {
         min-width: 60px;
     }
-}
+} */

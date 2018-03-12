@@ -1,9 +1,10 @@
-<div class="grid grid-pad">
-    <a *ngFor="let project of projects" class="col-1-4" routerLink="/detail/{{project.id}}">
-        <div class="module hero" [ngStyle]="{background:' url(assets/img/' + project.img_path + ')'}">
+<div class="grid grid-pad row">
+    <a *ngFor="let project of projects" class="col-sm-4" routerLink="/detail/{{project.id}}">
+        <div class="module hero" [ngStyle]="{background:' url(assets/img/' + project.img_path + ')', 'background-size': '500px' }">
             <h4>{{project.name}}</h4>
             <h4>{{project.address}}</h4>
             <h4 ng-if="project.new_project">New</h4>
+
             <a class="btn btn-secondary" routerLink="/detail/{{project.id}}" role="button">View details »</a>
 
         </div>
