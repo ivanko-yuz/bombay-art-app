@@ -42,6 +42,7 @@ h4 {
     text-align: center;
     color: #000;
     max-height: 300px;
+    min-height: 240px;
     min-width: 120px;
     border-radius: 2px;
 }
