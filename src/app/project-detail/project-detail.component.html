@@ -5,12 +5,11 @@
             <img src="./../../assets/img/test.jpg" class="col-md-6 float-left" alt="{{project.name}}" height="600px">
             <div class="col-md-6">
                 <div class="col-md-12">
-                    Understand and deliver the desired value of each stake holder be it our customers, investors, owners, employees, government, society or the nature herself. Understand and deliver the desired value of each stake holder be it our customers, investors, owners,
-                    employees, government, society or the nature herself. To enhance the lifestyle of the tenants/members of the society by providing them the redeveloped house which are superior in quality and design than their current houses. To focus
-                    on incorporating the latest techniques and technology,to continuously innovate a flexible or comprehensive solution as per the (market) needs.
+                    <p>{{project.address}}</p>
+                    <p>{{project.description}}</p>
                 </div>
                 <div class="col-md-12 elem-center">
-                    <a class="btn btn-secondary" routerLink="/" role="button">Back »</a>
+                    <a class="btn btn-secondary" (click)="goBack()" role="button">Back</a>
                 </div>
             </div>
         </div>
