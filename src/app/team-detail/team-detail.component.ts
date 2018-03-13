@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Team } from './../classes/team';
+
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-team-detail-selector',
@@ -8,9 +14,27 @@ import { Component, OnInit } from '@angular/core';
 
 export class TeamDetailComponent implements OnInit {
 
-constructor() { }
+member: Team;
+
+constructor(
+  private route: ActivatedRoute,
+  private teamSErvice: AppService,
+  private location: Location
+) { }
 
   ngOnInit() {
+    this.getMember();
+  }
+
+  getMember(): void {
+    const id = +this.route.snapshot.paramMap.get('id');
+
+    this.teamSErvice.getTemmate(id)
+    .subscribe(member => this.member = member);
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 
 }

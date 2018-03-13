@@ -12,7 +12,7 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
 
 import {NgxPageScrollModule} from 'ngx-page-scroll';
 
-import { ProjectService } from './project.service';
+import { AppService } from './app.service';
 
 
 @NgModule({
@@ -29,7 +29,7 @@ import { ProjectService } from './project.service';
     NgxPageScrollModule,
     AppRoutingModule
   ],
-  providers: [ ProjectService ],
+  providers: [ AppService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
