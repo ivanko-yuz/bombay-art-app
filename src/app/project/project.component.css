@@ -72,6 +72,7 @@ h4 {
 }
 
 .filter-box {
+    font-size: 4vh;
     display: flex;
     justify-content: center;
     height: 55px;
