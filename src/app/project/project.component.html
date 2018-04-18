@@ -12,7 +12,7 @@
         <div class="module hero" [ngStyle]="{background:' url(assets/img/' + project.img_path + ')', 'background-size': '650px' }">
             <h4>{{project.name}}</h4>
             <h4>{{project.address}}</h4>
-            <h4 ng-if="project.new_project">New</h4>
+            <h4 *ngIf="!project.new_project">New</h4>
 
             <a class="btn btn-secondary" routerLink="/detail/{{project.id}}" role="button">View details</a>
         </div>
