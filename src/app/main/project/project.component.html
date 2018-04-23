@@ -7,7 +7,7 @@
     <h2> &emsp; </h2>
     <button (click)="showProjects(false)" class="filter-text">Old</button>
 </div>
-<div class="grid grid-pad row">
+<div class="grid grid-pad row" id="scrollable-content">
     <a *ngFor="let project of projects" class="col-sm-4" routerLink="/detail/{{project.id}}">
         <div class="module hero" [ngStyle]="{background:' url(assets/img/' + project.img_path + ')', 'background-size': '650px' }">
             <h4>{{project.name}}</h4>
