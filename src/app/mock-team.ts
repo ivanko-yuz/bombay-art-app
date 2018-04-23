@@ -1,9 +1,10 @@
 import { Team } from './classes/team';
 
 export const TEAMMATES: Team[] = [
-    {
-      id: 1,
-      name: 'Mr. Prakash Sanghvi',
+  {
+      id: 2,
+      name: 'Mr. Prakash Jain',
+      position: 'Chairman',
       img_path: 'test.jpg',
       description:
       `
@@ -20,11 +21,13 @@ export const TEAMMATES: Team[] = [
       for social causes. He has significantly contributed in the field of Medical, Education and Religion for the benefit of the masses.
       Mr. Sanghvi strongly believes in his mantra of ‘Nothing is impossible, we make it possible’ which is also reflected
       in our tagline ‘building possibilities’.
-      `
+      `,
+      show: true,
     },
     {
-      id: 2,
-      name: 'Mr. Vinay Sanghvi',
+      id: 4,
+      name: 'Mr. Vinay Jain',
+      position: 'Director',
       img_path: 'test.jpg',
       description:
       `
@@ -40,11 +43,13 @@ export const TEAMMATES: Team[] = [
     As a leader Mr. Vinay Sanghvi has placed a great deal of value in nurturing relationships for the long run and has constantly
     motivated and pushed his team towards excellence. He also spearheads the company’s Strategy, Marketing, Sales,
     CRM and Business Development function.
-      `
+      `,
+      show: false,
     },
     {
-      id: 3,
-      name: 'Mr. Hitesh Sanghvi',
+      id: 5,
+      name: 'Mr. Hitesh Jain',
+      position: 'Director',
       img_path: 'test.jpg',
       description:
       `
@@ -59,11 +64,13 @@ export const TEAMMATES: Team[] = [
 
      He is also deeply involved in the working of the Sambhav Religious trust and leads many social activities engulfed in medical,
      education and religion activities.
-      `
+      `,
+      show: false,
     },
     {
-        id: 4,
+        id: 6,
         name: 'Mr. Sahil Jain',
+        position: 'Director',
         img_path: 'test.jpg',
         description:
         `
@@ -74,7 +81,8 @@ export const TEAMMATES: Team[] = [
 
         His bioclimatic approach of design, facilitates ecologically balanced lifestyle for all of the prospective
         inhabitants of Sambhav group. He has completed more than 35 architectural and interior projects over the last 10 years.
-        `
+        `,
+        show: false,
       }
 ];
 
