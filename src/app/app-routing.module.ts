@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
-import { ProjectComponent } from './project/project.component';
-import { ProjectDetailComponent } from './project-detail/project-detail.component';
-import { TeamComponent } from './team/team.component';
-import { TeamDetailComponent } from './team-detail/team-detail.component';
+import { ProjectComponent } from './main/project/project.component';
+import { ProjectDetailComponent } from './main/project/project-detail/project-detail.component';
+import { TeamComponent } from './main/team/team.component';
+import { TeamDetailComponent } from './main/team/team-detail/team-detail.component';
 
 const routes: Routes = [
     { path: '', redirectTo: '/main', pathMatch: 'full' },

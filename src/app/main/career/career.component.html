@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <h1 style="text-align:center; margin-top: 2%;">Career</h1>
+    <div class="row" class="filter-box">
+        <button (click)="showPage(0)" class="filter-text">Work at Sambhav</button>
+        <h2> &emsp;</h2>
+        <button (click)="showPage(1)" class="filter-text">Current Opening</button>
+        <h2> &emsp; </h2>
+        <button (click)="showPage(2)" class="filter-text">Share your CV</button>
+    </div>
+    <div class="row">
+
+        <div class="col-md-1"></div>
+        <div *ngIf="currentPage == 0" class="col-md-10">
+            Sambhav Group was established in the year 1988. Till date, it has facilitated more than 2.5mn of sq. feet of work in the space of residential, commercial, retail development and redevelopment. More than two decades of reputed standing in the market reflects
+            the organization's acknowledgement by its target audience, for its commitment to the well being of tenants and real estate buyers as a top priority, by delivering a high quality residential, commercial and retail complexes in a timely manner
+            to the full satisfaction and expectation of all its target audience in megapolis city of Mumbai. We have major projects coming at prime location of Mumbai like Kemps Corner, Bandra(W), Juhu and so on. A workplace that empowers employee to:
+            <ul>
+                <li>To be future leaders</li>
+                <li>To be agile in work</li>
+                <li>To be efficient team members</li>
+                <li>To be responsible towards the society</li>
+                <li>To keep learning new ways and develop new skills</li>
+            </ul>
+        </div>
+        <div *ngIf="currentPage == 1" class="col-md-10">
+            <ul> Sales Manager
+                <li>Location: Lower Parel, Mumbai</li>
+                <li>Educational Qualification: Graduate from any stream</li>
+                <li>Work experience: Min 3 years of relevant experience</li>
+            </ul>
+        </div>
+        <div *ngIf="currentPage == 2" class="col-md-10">
+            <button style="align-content: center">Click</button>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+</div>

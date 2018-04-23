@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
         id: 1,
         name: 'Jupiter towers',
         address: 'Nesbit Rd, Tadwadi, Mazgaon, Mumbai, Maharashtra',
-        new_project: true,
+        new_project: false,
         img_path: 'test.jpg',
         description:
         `
@@ -150,7 +150,7 @@ export const PROJECTS: Project[] = [
         id: 9,
         name: 'Darshan towers',
         address: null,
-        new_project: false,
+        new_project: true,
         img_path: 'test.jpg',
         description:
         `
