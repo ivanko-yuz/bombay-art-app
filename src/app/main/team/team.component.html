@@ -2,7 +2,7 @@
     <h1 style="text-align:center">Team</h1>
 
 
-    <div class="row" style="text-align:center;margin-top:50px;">
+    <div class="row" style="text-align:center;margin-top:20px;">
         <div *ngFor="let member of teammates" [ngClass]="{'col-lg-12': member.show, 'col-lg-4': !member.show}">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="240" height="240">
             <h2>{{member.name}}</h2>

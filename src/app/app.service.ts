@@ -9,6 +9,9 @@ import { Project } from './classes/project';
 import { TEAMMATES } from './mock-team';
 import { Team } from './classes/team';
 
+import { PARTNERS } from './mock-partners';
+import { Partner } from './classes/partner';
+
 @Injectable()
 export class AppService {
 
@@ -20,6 +23,10 @@ export class AppService {
 
   getTeammates(): Observable<Team[]> {
     return of(TEAMMATES);
+  }
+
+  getPartners(): Observable<Partner[]> {
+    return of(PARTNERS);
   }
 
   getProject(id: number): Observable<Project> {

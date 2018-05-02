@@ -1,0 +1,10 @@
+<h1 style="text-align:center">Partners</h1>
+
+<div class="grid grid-pad row">
+    <a *ngFor="let partner of partners" class="col-md-4">
+        <div class="module" [ngStyle]="{background:' url(assets/img/' + partner.img_path + ')', 'background-size': '650px' }">
+            <h2>{{partner.name}}</h2>
+            <h2>{{partner.position}}</h2>
+        </div>
+    </a>
+</div>
