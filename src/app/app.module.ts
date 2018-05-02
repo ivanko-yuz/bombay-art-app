@@ -10,6 +10,9 @@ import { ProjectDetailComponent } from './main/project/project-detail/project-de
 import { TeamComponent } from './main/team/team.component';
 import { TeamDetailComponent } from './main/team/team-detail/team-detail.component';
 import { CareerComponent } from './main/career/career.component';
+import { NRIFaqComponent } from './main/nrifaq/nrifaq.component';
+import { PartnerComponent } from './main/partner/partner.component';
+
 
 import {NgxPageScrollModule} from 'ngx-page-scroll';
 
@@ -24,7 +27,9 @@ import { AppService } from './app.service';
     ProjectDetailComponent,
     TeamComponent,
     TeamDetailComponent,
-    CareerComponent
+    CareerComponent,
+    NRIFaqComponent,
+    PartnerComponent
   ],
   imports: [
     BrowserModule,

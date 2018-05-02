@@ -47,6 +47,11 @@ h4 {
     border-radius: 2px;
 }
 
+.module-size {
+    max-height: 300px;
+    min-height: 240px;
+}
+
 .module:hover {
     background-color: #EEE;
     cursor: pointer;
@@ -87,8 +92,9 @@ h4 {
 }
 
 #scrollable-content {
-    height: 100vh;
-    overflow: auto;
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 #scrollable-content::-webkit-scrollbar-track {
