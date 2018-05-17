@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
         name: 'Jupiter towers',
         address: 'Mazgaon, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-02.jpg',
         description:
         `
         A breathtaking view of the Arabian Sea and the green canopy of Mazgaon
@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
         name: 'Ketan apartment',
         address: 'Mazgaon, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-04.jpg',
         description:
         `
         Ketan Apartments brings luxury living to Mazgaon. Offering refined living
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
         name: 'Nagsen tower',
         address: 'Mazgaon, Mumbai Harbour',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-07.jpg',
         description:
         `
         The flats provide the luxury of convenience and space. e spacious
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
         name: 'Sambhav darshan',
         address: 'Sandhurst Road, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-06.jpg',
         description:
         `
         It is an integrated combination of high street retail and luxury residences.
@@ -69,7 +69,7 @@ export const PROJECTS: Project[] = [
         name: 'Sambhav tiara',
         address: 'Goregaon, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-03.jpg',
         description:
         `
         Sambhav Tiara, the name roots from the crowned parametric elevation that
@@ -80,10 +80,10 @@ export const PROJECTS: Project[] = [
       },
       {
         id: 6,
-        name: 'Sambhav bungalows',
+        name: 'Shatrunjay bungalows',
         address: 'Mirage Bungalow, Lonavala',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-11.jpg',
         description:
         `
         Shatrunjay Bungalows is a chain of 22 bungalows, spread over a land of
@@ -98,7 +98,7 @@ export const PROJECTS: Project[] = [
         name: 'Sambhav zest',
         address: 'Bandra, Mombai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-01.jpg',
         description:
         `
         3 BHK, Apartment-Flat in Zest located in Bandra West, Mumbai.
@@ -113,7 +113,7 @@ export const PROJECTS: Project[] = [
         name: 'Siya Homes',
         address: 'Lonavala',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-10.jpg',
         description:
         `
         The Siya Homes project consists of six bungalow where 70% of the land is
@@ -127,7 +127,7 @@ export const PROJECTS: Project[] = [
         name: 'Darshan tower',
         address: 'Mazgaon, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-05.jpg',
         description:
         `
         Darshan tower has got two wings A & B with a structure of G + 12 and G +6.
@@ -145,7 +145,7 @@ export const PROJECTS: Project[] = [
         name: 'Premire Gold',
         address: 'Sandhurst road, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-08.jpg',
         description:
         `
         Previously known as Derby Talkies it is the first redeveloped move theatre
@@ -159,7 +159,7 @@ export const PROJECTS: Project[] = [
         name: 'Sambhav Vama',
         address: 'Badlapur, Mumbai',
         new_project: false,
-        img_path: 'test.jpg',
+        img_path: 'B-09.jpg',
         description:
         `
         Sambhav Vama is a premium housing project, launched by Sambhav Group
@@ -174,7 +174,7 @@ export const PROJECTS: Project[] = [
         name: 'The Primordial house',
         address: 'Kemps Corner, Mumbai',
         new_project: true,
-        img_path: 'test.jpg',
+        img_path: 'C-01.jpg',
         description:
         `
         Standing tall at the bustling hub of Kemp’s Corner, Primordial is the
@@ -192,7 +192,7 @@ export const PROJECTS: Project[] = [
         name: 'Blue planet',
         address: 'Mazgaon, Mumbai',
         new_project: true,
-        img_path: 'test.jpg',
+        img_path: 'C-02.jpg',
         description:
         `
         It is the perfect residence in the south Mumbai, giving you the feeling that
@@ -209,7 +209,7 @@ export const PROJECTS: Project[] = [
         name: 'Bay vue',
         address: 'Marine lines, Mumbai',
         new_project: true,
-        img_path: 'test.jpg',
+        img_path: 'C-03.jpg',
         description:
         `
         It has the most beautiful view of the Queens Necklace, presiding over
