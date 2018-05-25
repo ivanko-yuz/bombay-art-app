@@ -60,5 +60,17 @@
     background: none;
     color: white;
     border: none;
-    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    font-size: 110%;
+}
+
+@media screen and (max-width: 600px) {
+    h3,
+    li {
+        font-size: 85%;
+    }
 }
