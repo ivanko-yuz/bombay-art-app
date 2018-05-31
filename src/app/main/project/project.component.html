@@ -9,7 +9,7 @@
 </div>
 <div class="grid grid-pad row" id="scrollable-content">
     <a *ngFor="let project of projects" class="col-md-4" routerLink="/detail/{{project.id}}">
-        <div class="module" [ngStyle]="{background:' url(assets/img/' + project.img_path + ')', 'background-size': '650px', 'background-position':'center' }">
+        <div class="module" [ngStyle]="{background:' url(assets/img/' + project.img_path + ')', 'background-size': '665px', 'background-position':'center' }">
             <h4>{{project.name}}</h4>
             <h4>{{project.address}}</h4>
             <h4 *ngIf="project.new_project">New</h4>
